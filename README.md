@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/LucasLlusco/github-jobs-reactjs">
+    <a href="https://scintillating-treacle-75677b.netlify.app/">
       Solution
     </a>
     <span> | </span>
