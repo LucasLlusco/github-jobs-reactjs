@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from "styled-components";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import { GlobalStyle } from "./css/globalStyle";
+import { Theme } from "./css/theme";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HomeContainer from "./containers/HomeContainer";
+import JobContainer from "./containers/JobContainer";
+import NotFound from "./containers/NotFound";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ThemeProvider theme={Theme}> 
+      <GlobalStyle/>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<HomeContainer/>}/>
+        <Route path="/job/:jobId" element={<JobContainer/>}/>
+        <Route path="*" element={<NotFound/>}/>
+      </Routes>
+      <Footer/>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
 
