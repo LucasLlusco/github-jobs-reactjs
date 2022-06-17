@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Github Jobs}</h1>
+<h1 align="center">Github Jobs</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,8 +8,7 @@
 
 <div align="center">
   <h3>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/LucasLlusco/github-jobs-reactjs">
       Solution
     </a>
     <span> | </span>
@@ -40,21 +39,21 @@
 Home page
 
 <!-- [screenshot] es un texto alternativo com el alt="" -->
-![screenshot](/public/assets/images/screenshot-desktop-home.png);
+![screenshot](/public/assets/images/screenshot-desktop-home.png)
 
 Job page
 
-![screenshot](/public/assets/images/screenshot-desktop-job.png);
+![screenshot](/public/assets/images/screenshot-desktop-job.png)
 
 ### Mobile
 
 Home page
 
-![screenshot](/public/assets/images/screenshot-mobile-home.png);
+![screenshot](/public/assets/images/screenshot-mobile-home.png)
 
 Job page
 
-![screenshot](/public/assets/images/screenshot-mobile-job.png);
+![screenshot](/public/assets/images/screenshot-mobile-job.png)
 
 ### Built With
 
