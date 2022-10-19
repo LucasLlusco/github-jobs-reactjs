@@ -23,22 +23,18 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [How to use](#how-to-use)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
-<!-- 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png) -->
 
 ### Desktop
 
 Home page
 
-<!-- [screenshot] es un texto alternativo com el alt="" -->
 ![screenshot](/public/assets/images/screenshot-desktop-home.png)
 
 Job page
@@ -60,6 +56,10 @@ Job page
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
+- [React-router-dom](https://reactrouter.com/)
+- [React-paginate](https://www.npmjs.com/package/react-paginate)
+- [Styled-components](https://styled-components.com/)
+- [Fontawesome-icons](https://fontawesome.com/icons)
 
 ## Features
 
@@ -83,13 +83,3 @@ $ npm install
 # Run the app
 $ npm start
 ```
-
-## Acknowledgements 
-<!-- para poner las dependecias, styled, react router dom, paginate, etc. -->
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
-
-- [React-router-dom](https://reactrouter.com/)
-- [React-paginate](https://www.npmjs.com/package/react-paginate)
-- [Styled-components](https://styled-components.com/)
-- [Fontawesome-icons](https://fontawesome.com/icons)
